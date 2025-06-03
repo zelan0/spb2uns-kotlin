@@ -1,1 +1,7 @@
-<fallback application.yaml>
+
+mqttBroker: tcp://localhost:1883
+mqttTopic: spBv3.0/#
+amqpBroker: amqp://guest:guest@localhost:5672/
+amqpExchange: uns_exchange
+userPropertyFilterKey: region
+userPropertyFilterValue: PlantA

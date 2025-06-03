@@ -1,0 +1,21 @@
+git remote -v
+git remote set-url origin git@github.com:zelan0/spb2uns-kotlin.git
+
+cd /path/to/repo
+git status
+git add .
+git commit -m "Your message"
+git push origin main
+
+************************************
+git checkout main
+git pull origin main
+
+git checkout -b feature/new-branch
+git branch
+
+git add .
+git commit -m "Add new feature XYZ"
+git push -u origin feature/new-branch
+
+
